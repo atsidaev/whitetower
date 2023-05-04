@@ -1,6 +1,6 @@
 import boto3
 import re
-from whitetower.repository import Repository
+from whitetower.repositories.repository import Repository
 
 class EcrRepository(Repository):
     def __init__(self, aws_account_id, aws_account_secret, aws_region):
